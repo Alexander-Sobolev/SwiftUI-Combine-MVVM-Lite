@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A54E7A8D4A2752A65BE2D229 /* Pods_SwiftUI_Combine_MVVM_Lite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2ED611048DC1F81D17BAADEF /* Pods_SwiftUI_Combine_MVVM_Lite.framework */; };
 		B4090D51276F1D2200B2F420 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4090D50276F1D2200B2F420 /* AppDelegate.swift */; };
 		B4090D53276F1D2200B2F420 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4090D52276F1D2200B2F420 /* SceneDelegate.swift */; };
 		B4090D55276F1D2200B2F420 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4090D54276F1D2200B2F420 /* ContentView.swift */; };
 		B4090D57276F1D2300B2F420 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4090D56276F1D2300B2F420 /* Assets.xcassets */; };
 		B4090D5A276F1D2300B2F420 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4090D59276F1D2300B2F420 /* Preview Assets.xcassets */; };
 		B4090D5D276F1D2300B2F420 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4090D5B276F1D2300B2F420 /* LaunchScreen.storyboard */; };
+		B4090D66276F1D8000B2F420 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4090D65276F1D8000B2F420 /* UserViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2ED611048DC1F81D17BAADEF /* Pods_SwiftUI_Combine_MVVM_Lite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftUI_Combine_MVVM_Lite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C92A5E072D82A4E372745B4 /* Pods-SwiftUI+Combine+MVVM-Lite.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUI+Combine+MVVM-Lite.release.xcconfig"; path = "Target Support Files/Pods-SwiftUI+Combine+MVVM-Lite/Pods-SwiftUI+Combine+MVVM-Lite.release.xcconfig"; sourceTree = "<group>"; };
 		B4090D4D276F1D2200B2F420 /* SwiftUI+Combine+MVVM-Lite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI+Combine+MVVM-Lite.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4090D50276F1D2200B2F420 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B4090D52276F1D2200B2F420 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +28,8 @@
 		B4090D59276F1D2300B2F420 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B4090D5C276F1D2300B2F420 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B4090D5E276F1D2300B2F420 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4090D65276F1D8000B2F420 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		FF2C49836C222EB9050E9689 /* Pods-SwiftUI+Combine+MVVM-Lite.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUI+Combine+MVVM-Lite.debug.xcconfig"; path = "Target Support Files/Pods-SwiftUI+Combine+MVVM-Lite/Pods-SwiftUI+Combine+MVVM-Lite.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +37,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A54E7A8D4A2752A65BE2D229 /* Pods_SwiftUI_Combine_MVVM_Lite.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		88EA72FC283996D48D576F97 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FF2C49836C222EB9050E9689 /* Pods-SwiftUI+Combine+MVVM-Lite.debug.xcconfig */,
+				5C92A5E072D82A4E372745B4 /* Pods-SwiftUI+Combine+MVVM-Lite.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		99E471CD963522AA1F34FCF9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2ED611048DC1F81D17BAADEF /* Pods_SwiftUI_Combine_MVVM_Lite.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B4090D44276F1D2200B2F420 = {
 			isa = PBXGroup;
 			children = (
 				B4090D4F276F1D2200B2F420 /* SwiftUI+Combine+MVVM-Lite */,
 				B4090D4E276F1D2200B2F420 /* Products */,
+				88EA72FC283996D48D576F97 /* Pods */,
+				99E471CD963522AA1F34FCF9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,9 +83,9 @@
 		B4090D4F276F1D2200B2F420 /* SwiftUI+Combine+MVVM-Lite */ = {
 			isa = PBXGroup;
 			children = (
-				B4090D50276F1D2200B2F420 /* AppDelegate.swift */,
-				B4090D52276F1D2200B2F420 /* SceneDelegate.swift */,
-				B4090D54276F1D2200B2F420 /* ContentView.swift */,
+				B4090D68276F1EDF00B2F420 /* Aplication */,
+				B4090D64276F1D5F00B2F420 /* ViewModel */,
+				B4090D67276F1ECB00B2F420 /* View */,
 				B4090D56276F1D2300B2F420 /* Assets.xcassets */,
 				B4090D5B276F1D2300B2F420 /* LaunchScreen.storyboard */,
 				B4090D5E276F1D2300B2F420 /* Info.plist */,
@@ -75,6 +102,31 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		B4090D64276F1D5F00B2F420 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B4090D65276F1D8000B2F420 /* UserViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B4090D67276F1ECB00B2F420 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B4090D54276F1D2200B2F420 /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B4090D68276F1EDF00B2F420 /* Aplication */ = {
+			isa = PBXGroup;
+			children = (
+				B4090D50276F1D2200B2F420 /* AppDelegate.swift */,
+				B4090D52276F1D2200B2F420 /* SceneDelegate.swift */,
+			);
+			path = Aplication;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -82,9 +134,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B4090D61276F1D2300B2F420 /* Build configuration list for PBXNativeTarget "SwiftUI+Combine+MVVM-Lite" */;
 			buildPhases = (
+				C9542EDB4EDA98465E0674D7 /* [CP] Check Pods Manifest.lock */,
 				B4090D49276F1D2200B2F420 /* Sources */,
 				B4090D4A276F1D2200B2F420 /* Frameworks */,
 				B4090D4B276F1D2200B2F420 /* Resources */,
+				CA6CFA8A39818135ED497FE0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -140,12 +194,55 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		C9542EDB4EDA98465E0674D7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftUI+Combine+MVVM-Lite-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA6CFA8A39818135ED497FE0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftUI+Combine+MVVM-Lite/Pods-SwiftUI+Combine+MVVM-Lite-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftUI+Combine+MVVM-Lite/Pods-SwiftUI+Combine+MVVM-Lite-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftUI+Combine+MVVM-Lite/Pods-SwiftUI+Combine+MVVM-Lite-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B4090D49276F1D2200B2F420 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				B4090D51276F1D2200B2F420 /* AppDelegate.swift in Sources */,
+				B4090D66276F1D8000B2F420 /* UserViewModel.swift in Sources */,
 				B4090D53276F1D2200B2F420 /* SceneDelegate.swift in Sources */,
 				B4090D55276F1D2200B2F420 /* ContentView.swift in Sources */,
 			);
@@ -283,6 +380,7 @@
 		};
 		B4090D62276F1D2300B2F420 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF2C49836C222EB9050E9689 /* Pods-SwiftUI+Combine+MVVM-Lite.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -304,6 +402,7 @@
 		};
 		B4090D63276F1D2300B2F420 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C92A5E072D82A4E372745B4 /* Pods-SwiftUI+Combine+MVVM-Lite.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
